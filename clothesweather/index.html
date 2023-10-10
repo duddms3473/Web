@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+    
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /*구글 웹 폰트 적용*/
+            @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+        
+            .jm-font{
+                font-family: 'Jeju Myeongjo', serif;/*웹 폰트 지정*/
+                color:orange;
+            }
+            .jm-font2{
+                font-family: 'Jeju Myeongjo', serif;/*웹 폰트 지정*/
+                color:rgb(7, 138, 7);
+            }
+            .jm-font3{
+                font-family: 'Jeju Myeongjo', serif;/*웹 폰트 지정*/
+                color:rgb(93, 93, 150);
+            }
+          </style>
+    </head>
+    <body>
+        <div style="text-align:center">
+            <h1 class="jm-font">오늘의 날씨별 옷차림 알아보기</h1>
+            <h5 class="jm-font3"> 예시: Busan, Goyang, Seoul, Alaska</h2>
+            <input id="city" type="text" value="">
+            <button id="btn">날씨가져오기</button>
+
+            <p id="temperature" class="jm-font2"></p>
+            <img id="clothes_image">
+            <h6>아이콘 출처: Freepik</h6>
+            <script src="getweather.js"></script>
+        </div>
+    </body>
+</html>
